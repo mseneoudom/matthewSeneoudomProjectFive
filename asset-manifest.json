@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/matthewSeneoudomProjectFive/static/css/main.75d9b649.chunk.css",
+    "main.js": "/matthewSeneoudomProjectFive/static/js/main.420abe12.chunk.js",
+    "main.js.map": "/matthewSeneoudomProjectFive/static/js/main.420abe12.chunk.js.map",
+    "runtime-main.js": "/matthewSeneoudomProjectFive/static/js/runtime-main.da5fe469.js",
+    "runtime-main.js.map": "/matthewSeneoudomProjectFive/static/js/runtime-main.da5fe469.js.map",
+    "static/js/2.8f2525c8.chunk.js": "/matthewSeneoudomProjectFive/static/js/2.8f2525c8.chunk.js",
+    "static/js/2.8f2525c8.chunk.js.map": "/matthewSeneoudomProjectFive/static/js/2.8f2525c8.chunk.js.map",
+    "index.html": "/matthewSeneoudomProjectFive/index.html",
+    "precache-manifest.336d2a0ad0ae30ed127452e3069eaf89.js": "/matthewSeneoudomProjectFive/precache-manifest.336d2a0ad0ae30ed127452e3069eaf89.js",
+    "service-worker.js": "/matthewSeneoudomProjectFive/service-worker.js",
+    "static/css/main.75d9b649.chunk.css.map": "/matthewSeneoudomProjectFive/static/css/main.75d9b649.chunk.css.map",
+    "static/js/2.8f2525c8.chunk.js.LICENSE.txt": "/matthewSeneoudomProjectFive/static/js/2.8f2525c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da5fe469.js",
+    "static/js/2.8f2525c8.chunk.js",
+    "static/css/main.75d9b649.chunk.css",
+    "static/js/main.420abe12.chunk.js"
+  ]
+}
