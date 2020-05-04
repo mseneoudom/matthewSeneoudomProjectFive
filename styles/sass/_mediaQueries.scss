@@ -1,0 +1,64 @@
+// media queries - 1340px
+
+@media (max-width: 948px) {
+    .savedRecipes p{
+        @include fontSize(14)
+    }
+    .recipeUL{
+        width:45%;
+    }
+    .recipeImage{
+        height:225px;
+    }
+    .recipeForm{
+        width:85%;
+    }
+}
+
+@media (max-width:840px){
+
+    .mobileNavButton{
+        display:initial;
+    }
+    .desktopNav{
+        border-bottom:3px solid transparent;
+    }
+
+    .desktopNav .navUL{
+        display:none;
+    }
+
+    
+    .desktopNav div.bleed{
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width:721px){
+
+    .recipeForm{
+        width:100%;
+    }
+
+    h2{
+        @include fontSize(20)
+    }
+
+    label, input, p{
+        @include fontSize(18);
+    }
+
+    .userSettings{
+        width:85%;
+    }
+}
+
+@media (max-width:545px){
+    .recipeUL{
+        width:100%;
+    }
+
+    .focusedRecipe{
+        width:90%;
+    }
+}

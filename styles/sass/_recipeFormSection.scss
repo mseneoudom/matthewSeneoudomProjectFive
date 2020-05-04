@@ -1,0 +1,24 @@
+.recipeForm{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    margin:0 auto;
+    padding:1% 0;
+    >*{
+        margin:1% 0;
+    }
+
+    .imageContainer{
+        float:left;
+        margin:4% auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        max-width:500px;
+
+    }
+
+    label,button, input{
+        @include fontSize(18);
+    }
+}

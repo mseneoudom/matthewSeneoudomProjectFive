@@ -1,0 +1,64 @@
+.savedRecipesSection{
+    display:flex;
+}
+
+.savedRecipes{
+    display:flex;
+    flex-wrap:wrap;
+    border:1px solid rgb(221, 221, 221);
+    justify-content: space-between;
+    padding:1%;
+
+    li>*{
+        padding:1% 0;
+    }
+
+    p{
+        @include fontSize(16);
+    }
+}
+
+.recipeUL{
+    border:1px solid black;
+    width:30%;
+    padding:1%;
+    margin:2% 0;
+    max-height:500px;
+    overflow:hidden;
+}
+
+.recipeImage{
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(192, 192, 192);
+    overflow: hidden;
+}
+
+.recipeLI{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    cursor:pointer;
+}
+
+.authorContainer{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:4% 0;
+    >*{
+        margin-right: 2%;
+    }
+}
+
+.authorIcon{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

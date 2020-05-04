@@ -1,0 +1,70 @@
+.desktopNav{
+    border-bottom:3px solid rgb(27, 14, 9) ;
+    background:white;
+    width:100%;
+}
+
+.desktopNav div.bleed{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appName{
+    border:1px solid transparent;
+    background:black;
+    color:white;
+}
+
+.logoContainer{
+    position:relative;
+    background:black;
+    border:3px solid black;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    border-radius:50%;
+    i{
+        @include fontSize(32);
+        
+        color:white;
+        padding:0 5px;
+    }
+}
+
+.desktopNav ul{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:90%
+}
+
+.desktopNav ul li{
+    padding:10px 12px;
+    @include fontSize(18);
+    text-transform:lowercase;
+    font-weight:700;
+    border-bottom:1px solid black;
+    border-top:1px solid transparent;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+
+}
+
+.mobileNavButton
+{
+    display:none;
+    position:fixed;
+    top:20px;
+    left:10px; 
+    border:1px solid rgba(80, 80, 80, 0.294);
+    border-radius:4px;
+    padding:4px;
+    background-color: rgba(255, 255, 255, 0.692);
+    z-index: 1;
+    i{
+        @include fontSize(30);
+    }
+}

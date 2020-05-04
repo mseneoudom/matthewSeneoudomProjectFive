@@ -1,0 +1,33 @@
+.userSettingsSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userSettings{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:60%;
+}
+
+.avatarImage{
+    width:220px;
+    height:220px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    overflow: hidden;
+    border:1px solid rgb(172, 172, 172);
+}
+
+.settingsContainer{
+    flex:1 1 100%;
+    display:flex;
+    flex-direction: column;
+    padding:2%;
+    >*{
+        width:100%;
+    }
+}

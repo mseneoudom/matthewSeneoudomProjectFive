@@ -1,0 +1,20 @@
+// Hover and Focus Settings
+
+nav li:hover,
+nav li:focus{
+  background:black;
+  color:white;
+}
+
+.appName:hover,
+.appName:focus{
+  border:1px solid black;
+  background:white;
+  color:black;
+}
+
+.recipeUL:hover,
+.recipeUL:focus{
+  transition:0.1s;
+  transform:scale(1.01);
+}
