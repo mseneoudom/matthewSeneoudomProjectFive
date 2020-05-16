@@ -60,7 +60,7 @@ render(){
                                 </div>
                                 <p>{recipe.name.author}</p>
                             </div>
-                            <p>{recipe.name.description}</p>
+                            <p className="recipeDescription">{recipe.name.description}</p>
                         </div>
                         </li>
                     </ul>

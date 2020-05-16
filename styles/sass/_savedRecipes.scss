@@ -8,6 +8,7 @@
     border:1px solid rgb(221, 221, 221);
     justify-content: space-between;
     padding:1%;
+    border-radius:8px;
 
     li>*{
         padding:1% 0;
@@ -19,7 +20,9 @@
 }
 
 .recipeUL{
-    border:1px solid black;
+    border:1px solid rgb(214, 214, 214);
+    box-shadow: 0px 0px 15px #acacac ;
+    border-radius: 10px;
     width:30%;
     padding:1%;
     margin:2% 0;
@@ -36,7 +39,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid rgb(192, 192, 192);
+    border:1px solid rgb(211, 210, 210);
+    border-radius:10px;
     overflow: hidden;
 }
 
@@ -65,4 +69,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.savedRecipes h2{
+    color:rgb(250, 188, 118);
+    @include fontSize(22)
+
+}
+
+.savedRecipes p{
+    color:rgb(173, 160, 147);
+    @include fontSize(16)
+}
+
+.savedRecipes .recipeDescription{
+    @include fontSize(14);
+    color:rgb(141, 141, 141);
 }
